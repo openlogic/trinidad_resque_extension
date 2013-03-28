@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'trinidad_resque_extension'
-  s.version           = '0.1.1'
+  s.version           = '0.1.1.1'
   s.date              = '2012-01-15'
   s.rubyforge_project = 'trinidad_resque_extension'
 
@@ -43,6 +43,7 @@ Gem::Specification.new do |s|
   s.add_dependency('rake')
   s.add_dependency('trinidad')
   s.add_dependency('resque')
+  s.add_dependency('deep_merge')
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development

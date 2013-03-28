@@ -1,3 +1,4 @@
+require 'deep_merge'
 module Trinidad
   module Extensions
     require File.expand_path('../resque_lifecycle_listener', __FILE__)
